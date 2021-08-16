@@ -9,8 +9,8 @@ public class Grafite {
         G_4B(4),
         G_6B(6);
 
-        int desgastePorFolha;
-        Dureza(int desgastePorFolha){
+        private int desgastePorFolha;
+        private Dureza(int desgastePorFolha){
             this.desgastePorFolha = desgastePorFolha;
         }
         
